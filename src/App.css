@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 55px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.input0{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+  border: 5px solid cyan;
+  border-top: none;
+  border-left: none;
+   background-color: #282c34;
+  color: grey;
+
+
+}.input1{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+  border: 5px solid cyan;
+  border-left: none;
+  border-top: none;
+   background-color: #282c34;
+ 
+  outline: none;
+
+}
+.input2{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+ border-bottom: 5px solid cyan;
+  border-top: none;
+  background-color: #282c34;
+
+}
+.input3{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+  border-bottom: 5px solid cyan;
+   border-right: 5px solid cyan;
+   background-color: #282c34;
+  
+  outline: none;
+
+}
+.input4{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+  border: 5px solid cyan;
+  border-left: none;
+   border-top: none;
+   background-color: #282c34;
+  outline: none;
+
+}.input5{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+ border-bottom: 5px solid cyan;
+  border-top: none;
+   background-color: #282c34;
+ 
+
+}
+.input6{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+  border-bottom: 5px solid cyan;
+   border-right: 5px solid cyan;
+   background-color: #282c34;
+  border-bottom: none;
+}
+.input7{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+  border: 5px solid cyan;
+  border-left: none;
+   border-top: none;
+   background-color: #282c34;
+  border-bottom: none;
+}
+.input8{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+ border-bottom: 5px solid cyan;
+  border-top: none;
+   background-color: #282c34;
+  border-bottom: none;
+}
+
+.grid{
+  width:60% ;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+  
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
