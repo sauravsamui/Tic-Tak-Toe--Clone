@@ -27,7 +27,7 @@ function App() {
       onClick={()=>{
         window.location.reload()
       }}
-      >Play Agin!</button>
+      >Play Again!</button>
     </div>
   );
 }
